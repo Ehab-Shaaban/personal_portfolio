@@ -1,3 +1,26 @@
-main{
-    background-color: red;
+nav{
+    background-color:#BE3144;
+    position:fixed;
+    top:0px;
+    width: 100%;
+    padding:0px;
+}
+nav ul{
+    float:right;
+    list-style-type: none;
+    padding:0px;
+    margin: 0px;
+}
+nav ul li{
+    padding: 20px;
+    display: inline-block;    
+}
+nav ul li a{
+    font-size: 25px;
+    color:white;
+    text-transform:capitalize;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: #45567D;
 }
